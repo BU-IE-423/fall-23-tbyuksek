@@ -1,28 +1,14 @@
 ## IE423 FALL - PROJECT 
 
-Project part one will be posted soon. 
+Hi, 
 
-### Summary of Part One
+Welcome to Github Page of IE423FALL - **Group 16**
 
-Project Part One, Composes of three main divisions:
+### Group Members 
+- Burak Caymaz
+- Yusuf Utku Güldür
+- Turgut Berk Yüksek
 
--Data Preprocessing
+## Project Part One
 
--Outlier Analysis over Full Data (15-minute windows)
-
--Outlier Analysis over Daily Percentage Changes (Open-Close differences of equities)
-
--Intersection of Full Time and Percentage Outliers and stating dates
-
--Intersection of Dates over same industries
-
--Conclusion
-
-```markdown
-Libraries Used
-
-- Pandas
-- Numpy
-- Matplotlib
-- Seaborn
-```
+You can reach our study on *Project Part One* by following this [link](www.github.com)
