@@ -1,19 +1,5 @@
 # Project Part One
 [Click Here](index.md) to return Index page.
-## Index 
-1. Importing Libraries
-2. Loading the Dataset and Data Preprocessing
-3. Feature Engineering
-4. Calculating IQR and Finding Outliers
-
-Importing Libraries
-
-`import pandas as pd
-import numpy as np
-from datetime import timedelta
-from datetime import datetime
-import seaborn as sb
-import matplotlib.pyplot as plt`
 
 **1. Importing Libraries**
 
@@ -71,13 +57,6 @@ stock_df=df[df["short_name"] ==stock]
 stock_df['timestamp'] = pd.to_datetime(stock_df['timestamp'])
 stock_df = stock_df.set_index(stock_df['timestamp'])
 ```
-
-    /var/folders/gv/_ncn2cr93xg8y4xyrtc1d3z80000gn/T/ipykernel_23400/4244002756.py:1: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      stock_df['timestamp'] = pd.to_datetime(stock_df['timestamp'])
 
 
 2.4 Defining Date limits and filtering data. A two-year period of time is chosen.
@@ -639,13 +618,6 @@ for i in stock_set:
     all_dates.append([i, easy_to_run(data, i)])
 ```
 
-    /var/folders/gv/_ncn2cr93xg8y4xyrtc1d3z80000gn/T/ipykernel_23400/725939791.py:4: SettingWithCopyWarning: 
-    A value is trying to be set on a copy of a slice from a DataFrame.
-    Try using .loc[row_indexer,col_indexer] = value instead
-    
-    See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
-      stock_df['timestamp'] = pd.to_datetime(stock_df['timestamp'])
-
 
 
 ```python
@@ -693,10 +665,3 @@ all_dates
       DatetimeIndex(['2017-04-10 00:00:00+00:00', '2017-09-27 00:00:00+00:00',
                      '2018-07-10 00:00:00+00:00', '2018-07-11 00:00:00+00:00'],
                     dtype='datetime64[ns, UTC]', name='timestamp', freq=None)]]
-
-
-
-
-```python
-
-```
