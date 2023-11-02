@@ -11,4 +11,4 @@ Welcome to Github Page of IE423FALL - **Group 16**
 
 ## Project Part One
 
-You can reach our study on *Project Part One* by following this [link](www.github.com)
+You can reach our study on *Project Part One* by following this [link](project_part_one.md)
