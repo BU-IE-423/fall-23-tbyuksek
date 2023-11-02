@@ -793,6 +793,6 @@ keywords of search engines and real-world stock data.
 <p>Sharp rises and falls in stock prices can create unusual data points, known as outliers. These
 often have a clear cause. A single stock can change in price sharply if something big happens
 in the company. Sometimes, the whole stock market might go up or down together. Or a
-specific industry might see a general rise or drop. For example, both **Turkcell and Türk
-Telekom** stocks show outliers on **July 11, 2018**, it suggests there was an important event on
+specific industry might see a general rise or drop. For example, both Turkcell and Türk
+Telekom stocks show outliers on July 11, 2018, it suggests there was an important event on
 that date affecting the telecom industry.</p>
