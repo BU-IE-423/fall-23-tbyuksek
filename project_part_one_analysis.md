@@ -1,6 +1,13 @@
 # Project Part One
 [Click Here](index.md) to return Index page.
 
+## Index 
+1. Importing Libraries
+2. Loading the Dataset and Data Preprocessing
+3. Feature Engineering
+4. Calculating IQR and Finding Outliers
+5. Conclusions and Google Trends Analysis
+
 **1. Importing Libraries**
 
 
@@ -665,3 +672,127 @@ all_dates
       DatetimeIndex(['2017-04-10 00:00:00+00:00', '2017-09-27 00:00:00+00:00',
                      '2018-07-10 00:00:00+00:00', '2018-07-11 00:00:00+00:00'],
                     dtype='datetime64[ns, UTC]', name='timestamp', freq=None)]]
+
+**5. Conclusions and Google Trends Analysis**
+
+<p>The six stocks selected for review in our project are as follows: from the aviation sector,
+Turkish Airlines (THYAO) and Pegasus (PGSUS); from the telecommunications sector, Türk
+Telekom (TTKOM) and Turkcell (TCELL); and from the banking sector, Garanti (GARAN) and
+Akbank (AKBNK).
+
+We executed our code to identify outliers within the data of these stocks, and then we
+checked Google Trends to see if there was a peak in searches related to our stock on the
+dates corresponding to the output.
+
+Upon examining the Google Trends graphs for the months containing the relevant dates, we
+observed that there were peak points on the dates with outliers. This observation has
+reinforced our confidence in the accuracy of our approach to identifying outlier dates.</p>
+
+### 1.THYAO ###
+
+The outlier dates for **THYAO** turned out to be: _2017-03-01, 2017-03-21, 2017-03-22,
+2017-08-14, 2017-10-09, 2018-01-10, 2018-01-15, 2018-03-06, 2018-06-08 and 2018-08-15_.
+
+![THYAO_22.03.2017](THYAO_22.03.2017.jpeg "THYAO_22.03.2017")
+
+
+**21st and 22nd of May** were 2 of the outliers, and the search for IST:THYAO was the highest in
+the month during those days. 
+
+![THYAO_10.01.2018.jpeg](THYAO_10.01.2018..jpeg "THYAO_10.01.2018")
+
+Similarly, In January 2018, the peak points occured mainly on the outlier points, which are
+**10th and 15th**. 
+
+### 2.PGSUS ###
+
+The outlier dates for **PGSUS** turned out to be _2017-03-20, 2017-04-17,2017-05-11,
+2017-07-10, 2018-05-25, 2018-07-11, 2018-07-17 and 2018-12-12_.
+
+![PGSUS_18.07.2018.jpeg](PGSUS_18.07.2018.jpeg "PGSUS_18.07.2018.jpeg")
+
+When we look at July 2018, our outlier dates **(11th and 17th)** were very popular when it
+comes to the search: IST:PGSUS. 
+
+![PGSUS_04.2018.jpeg](PGSUS_04.2018.jpeg "PGSUS_04.2018.jpeg.jpeg")
+
+Again, the search was very popular starting from 2 days prior to our outlier date **(April 17th)**
+and unpopular after it. 
+
+### 3.TTKOM ###
+
+The outlier dates for **TTKOM** turned out to be _2017-01-12, 2017-04-26, 2017-07-
+17, 2017-08-28, 2017-11-30, 2018-01-23, 2018-05-22, 2018-05-30, 2018-06-01, 2018-07-11,
+2018-10-04, and 2018-11-07._
+
+![TTKOM_05.2018.jpeg](TTKOM_05.2018.jpeg "TTKOM_05.2018.jpeg")
+
+When we look at the Google trends data in **May 2018**, a peak occured starting from our
+outlier date **(22nd)** and the topic remained hot until the beginning of **June**, which is after 2
+another outlier dates **(30th of May and 1st of June)**
+
+![TTKOM_17.04.2017.jpeg](TTKOM_17.04.2017.jpeg "TTKOM_17.04.2017.jpeg")
+
+This trend data shows a peak started on our outlier date which is **26th** of April and then that
+trend disappeared. Note that there are other peaks in the month and they are probably
+caused by something other than stock market prices of Turk Telekom.
+
+### 4.TCELL ###
+
+The outlier dates for _TCELL_ turned out to be **2017-04-20, 2017-05-04, 2017-07-07,
+2017-11-01, 2017-11-02, 2018-02-20, 2018-07-10, 2018-07-11, 2018-09-07, and 2018-09-13**.
+
+![TCELL_02.11.2017.jpeg](TCELL_02.11.2017.jpeg "TCELL_02.11.2017.jpeg")
+
+When we look at **November 2017** google trends data, we can see that Turkcell stocks were
+very popular in terms of search during outlier dates that we found, which are **1st and 2nd of
+November**. 
+
+![TCELL_13.09.2018.jpeg](TCELL_13.09.2018.jpeg "TCELL_13.09.2018.jpeg")
+
+When we look at the **September 2018** trend data, our outliers, which are **7th and 13th of
+September**, were local maximums in terms of search trend. Therefore, we can say that there
+is a correlation between the unusual stock price change and the trend. Note that the global
+maximum fort his month is not an outlier date, so there must be another explanation about
+it
+
+### 5.GARAN ###
+
+The outlier dates for **GARAN** turned out to be _2017-01-12, 2017-04-10, 2017-07-
+11, 2018-02-15, 2018-02-21, 2018-06-25, 2018-07-10, and 2018-07-11_.
+
+![GARAN_10.07.2018.jpeg](GARAN_10.07.2018.jpeg "GARAN_10.07.2018.jpeg")
+
+When we look at the trend data of **July 2018**, we can see that our outlier date (10th of June)
+is the most popular search during those 2 weeks. We can be very confident about the
+robustness of our code at this point, and the outlier-search trend correlation is very obvious.
+
+![GARAN_12.01.2017.jpeg](GARAN_12.01.2017.jpeg "GARAN_12.01.2017.jpeg")
+
+When we look at the trend data of **January 2017, 12th of January**, which is an outlier date, is
+the highest among all. This again shows strong correlation between the outlier data points
+and search trend.
+
+### 6.AKBNK ###
+
+The outlier dates for **AKBNK** turned out to be _2017-04-10, 2017-09-27, 2018-07-10,
+2018-07-11_
+
+![AKBNK_10.07.2018.jpeg](AKBNK_10.07.2018.jpeg "AKBNK_10.07.2018.jpeg")
+
+When we look at the Google trends data for AKBNK on **July 2018**, we can see that **10th of
+July**, which is an outlier point of the stock data, ranks the top. This shows strong correlation
+between the unstable stock prices and people’s search interests.
+
+![AKBNK_11.04.2017.jpeg](AKBNK_11.04.2017.jpeg "AKBNK_11.04.2017.jpeg")
+
+This data is the trend data for **April 2017**. As can be seen, 1 day after 10th of April, which is
+an outlier, is the top trend in April. This indicates a strong correlation between search
+keywords of search engines and real-world stock data.
+
+<p>Sharp rises and falls in stock prices can create unusual data points, known as outliers. These
+often have a clear cause. A single stock can change in price sharply if something big happens
+in the company. Sometimes, the whole stock market might go up or down together. Or a
+specific industry might see a general rise or drop. For example, both Turkcell and Türk
+Telekom stocks show outliers on July 11, 2018, it suggests there was an important event on
+that date affecting the telecom industry.</p>
