@@ -1,3 +1,5 @@
+### **PROJECT PART TWO - TASK TWO**
+
 ```python
 import os
 import numpy as np
@@ -6,9 +8,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
 ```
-
-### **PROJECT PART TWO - TASK TWO**
-
 
 ```python
 folder_path = 'data' 
