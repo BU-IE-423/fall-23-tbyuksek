@@ -14,7 +14,7 @@ Welcome to Github Page of IE423FALL - **Group 16**
   - You can reach our study on *Project Part Three **Part ONE*** by following this [link(PP3/1)](part3.ipynb)
   - You can reach our study on *Project Part Three **Part TWO*** by following this [link(PP3/2)](comparisson.ipynb)
   - You can reach our study on *Project Part Three **Part THREE*** by following this [link(PP3/3)](our_proposal.ipynb)
-  - You can reach our study on *Project Part Three **PROJECT REPORT*** by following this [link(PP3/PROJECT REPORT)]([IE423 Project Part 3 Report.pdf](https://your-github-username.github.io/IE423_Project_Part_3_Report.pdf))
+  - You can reach our study on *Project Part Three **PROJECT REPORT*** by following this [link(PP3/PROJECT REPORT)]([IE423 Project Part 3 Report.pdf](https://bu-ie-423.github.io/IE423_Project_Part_3_Report.pdf))
 
 >## Project Part Two
 - Project Part Two consists of Two Tasks.
