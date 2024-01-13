@@ -10,10 +10,11 @@ Welcome to Github Page of IE423FALL - **Group 16**
 - Turgut Berk Yüksek
 
 >## Project Part Three
-- Project Part Three consists of Three Parts.
-  - You can reach our study on *Project Part Three **Part ONE*** by following this [link(PP3/1)](part3.ipynb)
-  - You can reach our study on *Project Part Three **Part TWO*** by following this [link(PP3/2)](comparisson.ipynb)
-  - You can reach our study on *Project Part Three **Part THREE*** by following this [link(PP3/3)](our_proposal.ipynb)
+- Project Part Three consists of Four Parts.
+  - You can reach our study on *Project Part Three **Part ONE*** by following this [link(PP3/1)](aproach_1.ipynb)
+  - You can reach our study on *Project Part Three **Part TWO*** by following this [link(PP3/2)](aproach_2.ipynb)
+  - You can reach our study on *Project Part Three **Part THREE*** by following this [link(PP3/3)](aproach_3.ipynb)
+  - You can reach our study on *Project Part Three **Part FOUR*** by following this [link(PP3/3)](comparisson.ipynb)
 
 >## Project Part Two
 - Project Part Two consists of Two Tasks.
